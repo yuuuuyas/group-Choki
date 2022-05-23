@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  .top-news {
+    margin-bottom: 30px;
+  }
+}
+.top-news dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-news dt {
+  width:18%;
+}
+.top-news dd {
+  width:82%;
+  border-bottom: 2px dotted #ccc;
+}
+@media screen and (max-width: 768px) {
+    .top-news dt {
+      width: 30%;
+    }
+    .top-news dd {
+      width: 70%;
+  }
+}
+.top-news dd:nth-of-type(1)::after {
+  content: "NEW!";
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: #990000;
+  border-radius: 3px;
+  padding: 3px; /* 内側の余白 */
+}
+.top-side {
+  width: 300px;
+  float: right;
+}
+@media screen and (max-width: 768px) {
+  .top-side {
+    margin: auto;
+    float:none;
+  }
+}
+.top-side a:hover {
+  opacity: .7;
+}
