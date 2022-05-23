@@ -334,3 +334,26 @@ input[type="checkbox"] {
   .top-side a:hover {
     opacity: .7;
   }
+
+
+  /*-------------------------
+  セカンド
+-------------------------*/
+.menus>h2,
+.info>h2,
+.movie>h2,
+.map>h2,
+.contact>h2 {
+  margin: 50px 0 20px;
+  border-bottom: 2px dotted #422;
+}
+/*-------------------------
+  お問い合わせ
+-------------------------*/
+.contact td[colspan="2"] {
+  text-align: center;
+}
+.contact td[colspan="2"] input[type="submit"] {
+  letter-spacing: 2em;
+  text-indent: 2em;
+}
